@@ -3,7 +3,7 @@ import { TransliterationProvider } from "./transliteration-provider";
 export class ApiClient{
     transliterationProvider: TransliterationProvider;
     readonly apiUrl: string = "https://inputtools.google.com/request?text=";
-    language: string = "ne";
+    language: string = "ur";
     constructor(transliterationProvider: TransliterationProvider, language: string){  
         this.transliterationProvider = transliterationProvider;
         this.language = language
